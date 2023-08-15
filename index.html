@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2c4d29cae2.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+<!-- Content -->
+
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TECHCONNECT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <!-- if i wanted to have the text of the nav change colour - use hover (code below) -->
+          <!-- <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 244, 252, 31;" href="index.html">Home
+            <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+          </a> -->
+
+          <a class="nav-link active" href="index.html">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="container"> 
+    <div class="jumbotron">
+        <!-- <h1 class="display-4">Home Page</h1> -->
+        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+        <hr class="my-4">
+        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+      </div>
+      </div>
+  </div>
+
+  <div> 
+    <h1 class="text-center">TECHCONNECT</h1>
+
+    <!-- CAROUSEL -->
+  <div class="container p-3"></div>
+  <div class="row justify-content-md-center">
+    <div class="col-sm-6"> 
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/banner.2.png" class="d-block w-100" alt="nb 1">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/banner.1.png" class="d-block w-100" alt="nb 2">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/banner.3.png" class="d-block w-100" alt="nb 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- top 5 products title -->
+  <div class="container-10 p-5 align-items-center text-center"> 
+    <h2 class="fw-bolder fst-italic text-decoration-underline"> Top 5 Hot Products</h2>
+  </div>
+
+  <!-- top five products row 1 -->
+  <!-- card one -->
+<div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col-sm-3 p-3">
+      <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+        <h3 class="card-header text-dark">1</h3>
+        <div class="card-body">
+          <h5 class="card-title text-dark">Samsung Galaxy Watch4 40mm Pink </h5>
+          <h6 class="card-subtitle text-dark">$487.00</h6>
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dwa563a972/images/hi-res/D4/D9/N207385_0.jpg?sw=765&sh=765" alt="watch">  <!-- width="100%" height="100%"> -->
+        <div class="card-body">
+          <p class="card-text text-dark">Meet the new Samsung Galaxy Watch4 40. This watch is super light and easy functioning, and you can use it to track your workouts.</p>
+        </div>
+      </div>
+    </div>
+    <!-- card two -->
+    <div class="col-sm-3 p-3"> 
+      <div class="card bg-light mb-3">                 <!-- style="width: 20rem;"> -->
+        <h3 class="card-header text-dark">2</h3>
+        <div class="card-body"> 
+          <h5 class="card-title text-dark">Samsung Galaxy Z Flip4 5G 128GB Pink Gold</h5>
+          <h6 class="card-subtitle text-dark">$1,699.00</h6>
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw07e4407e/images/hi-res/1B/E0/N213603_0.jpg?sw=765&sh=765" alt="Flip">      <!-- width="100%" height="100%"> -->
+        <div class="card-body"> 
+          <p class="card-text text-dark">Meet the new Samsung Galaxy Z Flip4. This Phone has a slimmer and refined body, is water resistant, and has more storage capacity. </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </div>
+</div>
+<!-- top five products row 2 -->
+  <!-- card three -->
+ <div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col-sm-3 p-3">
+      <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+        <h3 class="card-header text-dark">3</h3>
+        <div class="card-body">
+          <h5 class="card-title text-dark">PS5 PlayStation 5 825GB Console</h5>
+          <h6 class="card-subtitle text-dark">$899.00</h6>
+        </div>
+        <img src="data:image/jpeg;base64,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" alt="ps5">      <!-- width="100%" height="100%"> -->
+        <div class="card-body">
+          <p class="card-text text-dark">The PS is back and upgraded. The PS5 has a new design and comes in the colour white, it has better 4K Quaility and has a faster loading time. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- card four -->
+    <div class="col-sm-3 p-3"> 
+    <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+      <h3 class="card-header text-dark">4</h3>
+      <div class="card-body">
+        <h5 class="card-title text-dark"> 14-inch MacBook Pro Apple - Space Grey </h5>
+        <h6 class="card-subtitle text-dark">$2,619.00</h6>
+      </div>
+      <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/refurb-mbp14-space-m1-2021?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638575247000" alt="MacBook">  <!-- width="100%" height="100%"> -->
+      <div class="card-body">
+        <p class="card-text text-dark"> The Apple MacBook Pro 14-inch has extreme performance and amazing battery life, it also has better webcam and speakers.   </p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- card five -->
+    <div class="col-sm-3 p-3"> 
+      <div class="card bg-light mb-3">                 <!-- style="width: 20rem;"> -->
+        <h3 class="card-header text-dark">5</h3>
+        <div class="card-body"> 
+          <h5 class="card-title text-dark"> Apple iPhone 14 Pro 128GB Deep Purple </h5>
+          <h6 class="card-subtitle text-dark">$1,999.00</h6>
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw2d4e3952/images/hi-res/2E/00/N214573_0.jpg?sw=765&sh=765" alt="iphone14">      <!-- width="100%" height="100%"> -->
+        <div class="card-body"> 
+          <p class="card-text text-dark"> The Apple Iphone 14 Pro has updated it's camera and 4K video recording, it also has a stronger performance and longer battery life.  </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- CATERGORY SECTION -->
+    <h1 class="fw-bold text-center p-5">Shop By Catergory</h1>
+
+    <!-- row 1 catergory -->
+      <!-- card 1 -->
+<div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col-sm-3 p-3">
+      <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+        <!-- <h3 class="card-header text-dark">1</h3> -->
+        <div class="card-body">
+          <a href="shop.html#mobile"><h5 class="card-title text-dark">Mobile Phones</h5></a>
+          <!-- <h6 class="card-subtitle text-dark">$487.00</h6> -->
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dwa56005db/images/hi-res/7E/4C/N210065_0.jpg?sw=765&sh=765" alt="Mobile Phones">  <!-- width="100%" height="100%"> -->
+        <div class="card-body">
+          <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="col-sm-3 p-3"> 
+      <div class="card bg-light mb-3">                 <!-- style="width: 20rem;"> -->
+        <!-- <h3 class="card-header text-dark">2</h3> -->
+        <div class="card-body"> 
+         <a href="shop.html#computer"><h5 class="card-title text-dark">Computers</h5></a>
+          <!-- <h6 class="card-subtitle text-dark">$1,699.00</h6> -->
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw9589cbfc/images/hi-res/19/E4/N214201_0.jpg?sw=765&sh=765" alt="Computers">      <!-- width="100%" height="100%"> -->
+        <div class="card-body"> 
+          <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="col-sm-3 p-3"> 
+      <div class="card bg-light mb-3">                 <!-- style="width: 20rem;"> -->
+        <!-- <h3 class="card-header text-dark">5</h3> -->
+        <div class="card-body"> 
+         <a href="shop.html#gaming"><h5 class="card-title text-dark"> Gamming </h5></a>
+          <!-- <h6 class="card-subtitle text-dark">$1,999.00</h6> -->
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw984829e2/images/hi-res/48/3E/N192865_0.jpg?sw=765&sh=765" alt="Gamming">      <!-- width="100%" height="100%"> -->
+        <div class="card-body"> 
+          <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- row 2 catergory -->
+ <!-- card 4 -->
+ <div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col-sm-3 p-3">
+      <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+        <!-- <h3 class="card-header text-dark">3</h3> -->
+        <div class="card-body">
+         <a href="shop.html#watches"><h5 class="card-title text-dark"> Smart Watches </h5></a>
+          <!-- <h6 class="card-subtitle text-dark">$999.99</h6> -->
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dwebf6f835/images/hi-res/F4/47/N203147_0.jpg?sw=765&sh=765" alt="Smart watch"> <!-- width="100%" height="100%"> -->
+        <div class="card-body">
+          <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+      </div>
+    </div>
+    <!-- card 5 -->
+    <div class="col-sm-3 p-3"> 
+    <div class="card bg-light mb-3">         <!--style="width: 20rem;"> -->
+      <!-- <h3 class="card-header text-dark">4</h3> -->
+      <div class="card-body">
+      <a href="shop.html#photos&videos"><h5 class="card-title text-dark"> Photos & Videos </h5></a>
+        <!-- <h6 class="card-subtitle text-dark">$2,619.00</h6> -->
+      </div>
+      <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw3283a0ee/images/hi-res/BD/BD/N214296_0.jpg?sw=765&sh=765" alt="Photos and Videos">  <!-- width="100%" height="100%"> -->
+      <div class="card-body">
+        <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+      </div>
+    </div>
+  </div>
+    <!-- card 6 -->
+    <div class="col-sm-3 p-3"> 
+      <div class="card bg-light mb-3">                 <!-- style="width: 20rem;"> -->
+        <!-- <h3 class="card-header text-dark">5</h3> -->
+        <div class="card-body"> 
+        <a href="shop.html#tablet"><h5 class="card-title text-dark"> Tablets </h5></a>
+          <!-- <h6 class="card-subtitle text-dark">$1,999.00</h6> -->
+        </div>
+        <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dwf49de6ed/images/hi-res/E2/45/N208252_0.jpg?sw=765&sh=765" alt="Tablets">      <!-- width="100%" height="100%"> -->
+        <div class="card-body"> 
+          <!-- <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer> 
+      <div class="card">
+          <div class="card-header">
+            <!-- Socials -->
+          </div>
+          
+          <div class="card-body text-center">
+            <a href="https://www.facebook.com/" class="btn btn-primary"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.discord.com/" class="btn btn-primary"><i class="fa-brands fa-discord"></i></a>
+          </div>
+        </div>
+  </footer>
+
+
+
+    <!--Content-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>    
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- Banner image -->
+  <!-- <div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3eVE2c_1KrNlJ-8T4R50wh1jmLIH62RCARQ&usqp=CAU" class="rounded mx-auto d-block" class="img-fluid" alt="Banner Image" height="50%" width="50%">
+  </div> -->
+
+
+
+  <!-- <div> 
+    <h1 class="text-center"> Top 5 Hot Products </h1>
+  </div> -->
+    
+
+  <!-- Number one -->
+  <!-- <div class="d-flex align-items-center">
+    <div class="card" style="width: 18rem;"> 
+      <img class="card-img-top" src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1642570761/vendor/7217/catalog/product/2/0/20210823062655_file_6123e86f05834_6123e8f100f62._61e7306adc778.jpg" alt="Card image cap">
+      <div class="card bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"> <p class="text-dark"> $25.00 </p></div>
+      <div class="card-body">
+        <h5 class="card-title"> <p class="text-dark"> Flower Vase </h5></p> 
+        <p class="text-dark"> This Flower Vase has a variety of different coloured flowers to choose from.</p> 
+     </div>   
+    </div>
+  </div> -->
+
+  <!-- Number 2 -->
+  <!-- <div class="d-flex align-items-md-end">
+    <div class="card" style="width: 18rem;"> 
+      <img class="card-img-top" src="https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2022-products/Pretty-perfect-800--grey.jpg" alt="Card image cap">
+      <div class="card bg-light mb-3" style="max-width: 18rem;">
+      <div class="card-header"> <p class="text-dark"> $30.00 </p></div>
+      <div class="card-body">
+        <h5 class="card-title"> <p class="text-dark"> Flower Bouquet </h5></p> 
+        <p class="text-dark"> This Flower Bouquet is great for any type of occation.</p> 
+      </div>
+    </div>
+  </div> -->
+
+
+
+<!-- card three -->
+  <!-- <div class="container p-3"> 
+    <div class="row justify-content-center align-items-top">
+      <di class="col-sm-3 p-3">  -->
+       <!-- <div class="card bg-light mb-3">  -->        <!-- style="width: 18rem;">-->
+          <!-- <h3 class="card-header text-dark">3</h3>
+          <div class="card-body">
+            <h5 class="card-title text-dark">Apple Airpods Max - Pink</h5>
+            <h6 class="card-subtitle text-dark">$999.99</h6>
+          </div> -->
+         <!-- <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dwd6187921/images/hi-res/50/90/N202572_0.jpg?sw=765&sh=765" alt="pink Airpods"> -->  <!-- width="100%" height="100%"> -->
+          <!-- <div class="card-body">
+            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div> -->
+
+      
+
+      <!-- card four -->
+      <!-- <div class="container p-3"> 
+        <div class="row justify-content-center align-items-top"> 
+          <di class="col-sm-3 p-3"> -->
+           <!-- <div class="card bg-light mb-3"> -->         <!-- style="width: 18rem;">-->
+              <!-- <h3 class="card-header text-dark">4</h3>
+              <div class="card-body">
+                <h5 class="card-title text-dark">Refurbished 14-inch MacBook Pro Apple M1 Pro Chip with 8‑Core CPU and 14‑Core GPU - Space Grey</h5>
+                <h6 class="card-subtitle text-dark">$2,619.00</h6>
+              </div> -->
+           <!-- <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/refurb-mbp14-space-m1-2021?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638575247000" alt="MacBook"> -->  <!-- width="100%" height="100%"> -->
+              <!-- <div class="card-body">
+                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div> -->
+          <!-- card five -->
+          <!-- <div class="col-sm-3 p-3">  -->
+              <!--  <div class="card bg-light mb-3"> -->          <!-- style="width: 18rem;">--> 
+              <!-- <h3 class="card-header text-dark">5</h3>
+              <div class="card-body">
+                <h5 class="card-title text-dark">Apple iPhone 14 Pro 128GB Deep Purple</h5>
+                <h6 class="card-subtitle text-dark">$1,999.00</h6>
+              </div>
+              <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw2d4e3952/images/hi-res/2E/00/N214573_0.jpg?sw=765&sh=765" alt="iphone14">   width="100%" height="100%"> -->
+              <!-- <div class="card-body"> 
+                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              </div>
+            </div>
+          </div> -->
+
+
+          
+<!-- Number two -->
+  <!-- <div class="container"> 
+    <div class="justify-content-center align-items-center g-2" style="width: 18rem;">
+      <di class="col-sm-3 p-3"> 
+        <div class="card bg-light mb-3"  style="width: 18rem;">
+          <h3 class="card-header text-dark">2</h3>
+          <div class="card-body">
+            <h5 class="card-title text-dark">Samsung Galaxy Z Flip4 5G 128GB Pink Gold</h5>
+            <h6 class="card-subtitle text-dark">$1,699.00</h6>
+          </div>
+          <img src="https://www.noelleeming.co.nz/dw/image/v2/BDMG_PRD/on/demandware.static/-/Sites-nlg-master-catalog/default/dw07e4407e/images/hi-res/1B/E0/N213603_0.jpg?sw=765&sh=765" width="100%" height="100%">
+          <div class="card-body">
+            <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- <div class="card bg-light mb-3" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+      <h5 class="card-title">Light card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+    </div>
+  </div> -->

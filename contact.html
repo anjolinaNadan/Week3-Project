@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2c4d29cae2.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+<!-- Content -->
+
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TECHCONNECT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <!-- if i wanted to have the text of the nav change colour - use hover (code below) -->
+          <!-- <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 244, 252, 31;" href="index.html">Home
+            <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+          </a> -->
+
+          <a class="nav-link" href="index.html">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="container"> 
+    <div class="jumbotron">
+        <h1 class="display-4">Contact Page</h1>
+        <hr class="my-4">
+      </div>
+  </div>
+
+  <!-- Contact details -->
+  <div class="container p-3"> 
+    <div class="row justify-content-start align-items-top g-2">
+    <div class="col-sm-6 pt-2">
+      <h2>Contact Us</h2>
+      <h4 class="pt-2">Address: 96 MapleBury Street, Auckland</h4>
+      <h4 class="pt-2">Email: techconnect@tech.com</h4>
+      <h4 class="pt-2">Phone: 0801 234 567</h4>
+    </div>
+  <!-- Message Us -->
+  <div class="col-6 pt-5">
+    <h2>Message Us</h2>
+      <form> 
+        <fieldset> 
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label mt-4">Name</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sarah" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label mt-4">Subject</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject" autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea" class="form-label mt-4">Message</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          </div> 
+          <div class="container p-3"> 
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+  </div>
+  
+
+<!-- Footer -->
+<footer> 
+  <div class="card">
+      <div class="card-header">
+        <!-- Socials -->
+      </div>
+      
+      <div class="card-body text-center">
+        <a href="https://www.facebook.com/" class="btn btn-primary"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.twitter.com/" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" class="btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.discord.com/" class="btn btn-primary"><i class="fa-brands fa-discord"></i></a>
+      </div>
+    </div>
+</footer>
+
+
+<!--Content-->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>    
+</body>
+</html>
